@@ -31,7 +31,7 @@ const projects = [
   },
   {
     name: "AmtekLab",
-    sub: "Mobile Engineer (Jun 2016 - Jan 2018)",
+    sub: "Full Stack Developer (Jun 2016 - Jan 2018)",
     image: "/companies/amteklab.jpg",
     link: "#",
   },
