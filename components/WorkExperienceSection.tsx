@@ -1,4 +1,5 @@
-import React from "react"
+'use client'
+import React, { useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
@@ -38,6 +39,13 @@ const projects = [
 ]
 
 const WorkExperienceSection = () => {
+    useEffect(() => {
+      fetch('https://yts.mx/api/v2/list_movies.json')
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error('Error:', error));
+
+    }, [])
   return (
     <section id="work-experience">
       <div className="md:pb-48">

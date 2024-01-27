@@ -13,10 +13,23 @@ const projects = [
     link: "https://play.google.com/store/apps/details?id=com.pasar20app",
   },
   {
+    name: "Marlin Booking",
+    description:
+      "Marlin Booking makes it easier to book ferry tickets and attraction vouchers. From Batam to Malaysia or Singapore, sail with our top ferry partners conveniently. Also, get amazing world attraction vouchers at reasonable prices.",
+    image: "/projects/marlin-booking.png",
+    link: "https://play.google.com/store/apps/details?id=com.marlinbooking.app",
+  },
+  {
     name: "Djuragan Kamar",
     description: "Djurkam is an application that makes it easy for people to search for rooms easily, find rooms with the nearest location point, recommend nearby rooms and users can make boarding room reservations daily, weekly, monthly.",
     image: "/projects/djurkam.png",
     link: "https://play.google.com/store/apps/details?id=com.djuragankamar.ids",
+  },
+  {
+    name: "Djuragan Voucher",
+    description: "Djuragan Voucher is an online voucher exchange application service used by tenants affiliated with Djuragan Voucher, so that members can easily exchange vouchers via the application.",
+    image: "/projects/djurvoc.png",
+    link: "https://play.google.com/store/apps/details?id=com.djuraganvoucher.member",
   },
   {
     name: "Cakep",
