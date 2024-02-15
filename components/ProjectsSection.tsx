@@ -13,11 +13,18 @@ const projects = [
     link: "https://play.google.com/store/apps/details?id=com.pasar20app",
   },
   {
-    name: "Marlin Booking",
+    name: "FDC Dental Clinic",
     description:
-      "Marlin Booking makes it easier to book ferry tickets and attraction vouchers. From Batam to Malaysia or Singapore, sail with our top ferry partners conveniently. Also, get amazing world attraction vouchers at reasonable prices.",
-    image: "/projects/marlin-booking.png",
-    link: "https://play.google.com/store/apps/details?id=com.marlinbooking.app",
+      "The FDC Dental Clinic application helps make it easier for you to schedule dental care with professional dentists anytime & anywhere. Get a free consultation with a trusted doctor & various treatment options at affordable prices.",
+    image: "/projects/fdc.png",
+    link: "https://play.google.com/store/apps/details?id=id.co.fdcdentalclinic",
+  },
+  {
+    name: "Cititrans",
+    description:
+      "Cititrans Booking has been completely redesigned for your convenience! Picking route, departure schedule and seat directly from our apps. You can even check seat availability in real time. Various payment options available for booking now or your advance reservation. Hassle free experience in managing your booking, refund or reschedule.",
+    image: "/projects/cititrans.png",
+    link: "https://play.google.com/store/apps/details?id=air.com.cititrans.birdev02",
   },
   {
     name: "Djuragan Kamar",
@@ -30,6 +37,13 @@ const projects = [
     description: "Djuragan Voucher is an online voucher exchange application service used by tenants affiliated with Djuragan Voucher, so that members can easily exchange vouchers via the application.",
     image: "/projects/djurvoc.png",
     link: "https://play.google.com/store/apps/details?id=com.djuraganvoucher.member",
+  },
+  {
+    name: "Marlin Booking",
+    description:
+      "Marlin Booking makes it easier to book ferry tickets and attraction vouchers. From Batam to Malaysia or Singapore, sail with our top ferry partners conveniently. Also, get amazing world attraction vouchers at reasonable prices.",
+    image: "/projects/marlin-booking.png",
+    link: "https://play.google.com/store/apps/details?id=com.marlinbooking.app",
   },
   {
     name: "Cakep",
