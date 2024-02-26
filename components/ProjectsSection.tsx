@@ -2,9 +2,16 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import { BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
+  {
+    name: "Dagangan",
+    description:
+      "Shopping for wholesale groceries and raw materials for business stock is much easier and cheaper using the Merchandise application. Practically, all you have to do is order through the application, groceries will be delivered by the courier, and of course FREE SHIPPING*.",
+    image: "/projects/dagangan.png",
+    link: "https://play.google.com/store/apps/details?id=com.dagangan.mall",
+  },
   {
     name: "Pasar20",
     description:
@@ -37,6 +44,12 @@ const projects = [
     description: "Djuragan Voucher is an online voucher exchange application service used by tenants affiliated with Djuragan Voucher, so that members can easily exchange vouchers via the application.",
     image: "/projects/djurvoc.png",
     link: "https://play.google.com/store/apps/details?id=com.djuraganvoucher.member",
+  },
+  {
+    name: "CSI Pas",
+    description: "The CSI application is the newest & most trusted application offered by CSI which was created specifically for our partners. We provide solutions for providing household equipment for partners efficiently and easily.",
+    image: "/projects/csi-pas.png",
+    link: "https://play.google.com/store/apps/details?id=com.csi.csiapp",
   },
   {
     name: "Marlin Booking",
