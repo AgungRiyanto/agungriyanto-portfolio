@@ -9,5 +9,7 @@ type Experience = {
 
 type Project = {
   project_name: string;
-  project_url: string;
+  project_link: string;
+  project_description: string;
+  project_image: string;
 }
