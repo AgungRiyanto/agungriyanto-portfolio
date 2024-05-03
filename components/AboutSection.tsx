@@ -1,21 +1,25 @@
-import React from "react"
+'use client'
+import React, { useEffect, useState } from "react"
 import Image from "next/image"
-
-const skills = [
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "React" },
-  { skill: "React Native" },
-  { skill: "Next.js" },
-  { skill: "Flutter" },
-  { skill: "Git" },
-  { skill: "PHP Laravel" },
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "SQL Database" },
-]
+import supabase from "@/utils/supabase";
 
 const AboutSection = () => {
+  const [data, setData] = useState<Skill[]>([]);
+
+  useEffect(() => {
+    getData();
+  }, []);
+
+  async function getData() {
+    let { data: skills, error } = await supabase
+      .from('skills')
+      .select('*')
+      .order('id', {ascending: true})
+      
+    if (skills) {
+      setData(skills);
+    }
+  }
   return (
     <section id="about">
       <div className="my-12 pb-12 md:pt-16 md:pb-48">
@@ -57,13 +61,13 @@ const AboutSection = () => {
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
             <div className="flex flex-wrap flex-row justify-center z-10 md:justify-start">
-              {skills.map((item, idx) => {
+              {data.map((skill, idx) => {
                 return (
                   <p
                     key={idx}
                     className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-gray-500 rounded font-semibold"
                   >
-                    {item.skill}
+                    {skill.skill_name}
                   </p>
                 )
               })}

@@ -13,3 +13,8 @@ type Project = {
   project_description: string;
   project_image: string;
 }
+
+type Skill = {
+  skill_name: string;
+  total_experience: number;
+}
