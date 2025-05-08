@@ -34,7 +34,7 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-            Hi, I'm Agung Riyanto — a Software Engineer passionate about crafting intuitive and scalable mobile and web applications. With hands-on experience in React Native, Flutter, and modern frontend technologies like React.js and Next.js, I love turning ideas into
+            Hi, I&#39;m Agung Riyanto — a Software Engineer passionate about crafting intuitive and scalable mobile and web applications. With hands-on experience in React Native, Flutter, and modern frontend technologies like React.js and Next.js, I love turning ideas into
 impactful digital products.
  
             </p>
@@ -60,7 +60,7 @@ efficiently.
             </p>
             <br/>
             <p>
-            I'm always eager to learn, grow, and build great things together!
+            I&#39;m always eager to learn, grow, and build great things together!
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
