@@ -34,19 +34,20 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Agung and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> frontend engineer
-              based in Yogyakarta, Indonesia.
+            Hi, I'm Agung Riyanto — a Software Engineer passionate about crafting intuitive and scalable mobile and web applications. With hands-on experience in React Native, Flutter, and modern frontend technologies like React.js and Next.js, I love turning ideas into
+impactful digital products.
+ 
             </p>
             <br />
             <p>
-              I graduated from University of Mercu Buana Yogyakarta in 2023
-              with a BS in Informatics Engineering and have been working in the
-              field since 2016.
+            I also have experience in backend development using Node.js, Express, Nest.js, Laravel, and working with databases like MySQL, PostgreSQL, and SQLite, enabling me to build complete end-to-end solutions.
             </p>
             <br />
+            <p>
+            I’m familiar with Agile methodology and enjoy collaborating with cross-functional teams to deliver high-quality products
+efficiently.
+            </p>
+            <br/>
             <p>
               I believe that you should{" "}
               <span className="font-bold text-blue-500">
@@ -56,6 +57,10 @@ const AboutSection = () => {
               technology and a desire to always push the limits of what is
               possible. I am excited to see where my career takes me and am
               always open to new opportunities. 🙂
+            </p>
+            <br/>
+            <p>
+            I'm always eager to learn, grow, and build great things together!
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
